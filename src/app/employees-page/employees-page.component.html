@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="card">
+        <h1 class="total">{{employees.length}}</h1>
+        <h4 class="detail-description">Employees</h4>
+        <div class="options">
+            <div style="border-right:2px solid #eee">
+                <app-add-employee [buttonText]="'Add'" [placeholder]="'Name'" (employeeName)="addEmployee($event)"></app-add-employee>
+            </div>
+            <div>
+                <app-add-employee [buttonText]="'Search'" [placeholder]="'Name'"></app-add-employee>
+            </div>
+        </div>
+    </div>
+    <div class="list">
+        <app-listitem-employee *ngFor="let employee of employees" [employee]="employee"></app-listitem-employee>
+    </div>
+</div>

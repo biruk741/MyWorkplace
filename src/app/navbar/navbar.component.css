@@ -1,0 +1,61 @@
+.nav {
+    background-color: rgb(45, 34, 56);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0px;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.53);
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.53);
+}
+
+a {
+    color: rgba(255, 255, 255, 0.514);
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    transition-duration: 300ms;
+}
+
+li:hover {
+    background-color: rgb(30, 20, 39);
+}
+
+a:hover {
+    color: white;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+    max-width: 600px;
+    display: flex;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    display: inline-flex;
+    padding: 10px 20px 10px 20px;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+}
+
+p {
+    margin: 0px;
+}
+
+.profile {
+    flex: 1.8;
+    color: white;
+}
+
+.profile h1 {
+    padding: 0px 20px 0px 24px;
+}

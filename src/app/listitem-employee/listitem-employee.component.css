@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 20px 20px 20px 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.041);
+}
+
+.container:hover {
+    background-color: rgba(0, 0, 0, 0.041);
+}
+
+.details {
+    flex: 1;
+}
+
+h1,
+h5 {
+    margin: 0px;
+    padding-left: 40px;
+    font-weight: 500;
+}
+
+img {
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+}
